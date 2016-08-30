@@ -1,0 +1,604 @@
+body {
+    background-color: black;
+    background-image: url(../img/background.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    font-family: custom;
+}
+
+h1 {
+    color: deepskyblue;
+    text-align: center;
+    z-index: 999;
+    font-family: custom;
+}
+
+h3 {
+    margin-top: 200px;
+}
+
+h5 {
+    font-size: 1.2em;
+}
+
+@font-face {
+    font-family: custom;
+    src: url(../fonts/MIROSLN.ttf)
+}
+
+#name-game {
+    text-align: center;
+}
+
+label {
+    color: deepskyblue;
+}
+
+#intro-game {
+    color: black;
+    text-align: center;
+    padding: 5px;
+    margin-top: 10px;
+}
+
+#book-boy {
+    width: 400px;
+    height: 310px;
+    text-align: center;
+    margin: 0 auto;
+    
+}
+
+#book-boy img{
+    width: 100%;
+    height: 100%;
+}
+
+#book-three-feary {
+    width: 400px;
+    height: 414px;
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 10px;
+}
+
+#book-three-feary img {
+    width: 100%;
+    height: 100%;
+}
+
+#magic-hat {
+    position: absolute;
+    left: 35%;
+    width: 150px;
+    height: 150px;
+}
+
+#magic-hat img {
+    width: 100%;
+    height: 100%;
+}
+
+#log-in-btn {
+    color: black;
+    background-color: deepskyblue;
+}
+
+aside {
+    margin-top: 40px;
+}
+
+#button-ramk {
+    width: 210px;
+    margin: 0 auto;
+    margin-top: 100px;
+    text-align: center;
+}
+
+.main-button {
+    margin-top: 10px;
+    width: 200px;
+    height: 50px;
+    border-radius: 25%;
+    color: black;
+    font-size: 1.3em;
+    background-image: url(../img/btn-background2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    
+}
+
+#book-img {
+    width: 250px;
+    height: 200px;
+    display: block;
+    margin: 0 auto; 
+    margin-bottom: 50px;
+}
+
+#fairy {
+    width: 200px;
+    height: 300px;
+    margin-left: 100px;
+}
+
+#small-star-left {
+    margin-left: 300px;
+}
+
+/* social links */
+
+footer {
+    position: relative;
+    width: 100%;
+    font-family: sans-serif;
+}
+
+footer p {
+    color: deepskyblue;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    height: 45px;
+    line-height: 45px;
+}
+
+#social-footer {
+    text-align: center;
+    position: relative;
+}
+
+
+ul.social-network {
+    list-style: none;
+    display: inline;
+    margin: 0;
+    padding: 0;
+}
+
+ul.social-network li {
+    display: inline;
+    margin: 0 5px;
+}
+
+main {
+    -webkit-animation: fadein 3s ease-in-out;
+    animation: fadein 3s ease-in-out;
+    -webkit-transition: opacity 0.4s ease-out;
+    transition: opacity  0.4s ease-out;
+}
+@-webkit-keyframes fadein {
+    from{ opacity: 0;}
+    to{opacity: 1;}
+}
+
+@keyframes fadein {
+    from{ opacity: 0;}
+    to {opacity: 1;}
+}
+
+aside {
+    -webkit-animation: fadein 3s ease-in-out;
+    animation: fadein 3s ease-in-out;
+    -webkit-transition: opacity 0.5s ease-out;
+    transition: opacity  0.5s ease-out;
+}
+@-webkit-keyframes fadein {
+    from{ opacity: 0;}
+    to{opacity: 1;}
+}
+
+@keyframes fadein {
+    from{ opacity: 0;}
+    to {opacity: 1;}
+}
+
+
+/* footer social icons */
+
+.social-network a.icoFacebook:hover {
+    background-color: #3B5998;
+}
+
+.social-network a.icoTwitter:hover {
+    background-color: #33ccff;
+}
+
+.social-network a.icoGoogle:hover {
+    background-color: #BD3518;
+}
+
+.social-network a.icoFacebook i,
+.social-network a.icoTwitter i,
+.social-network a.icoGoogle i {
+    color: black;
+}
+
+.social-network a.icoFacebook:hover i,
+.social-network a.icoTwitter:hover i,
+.social-network a.icoGoogle:hover i {
+    color: #fff;
+}
+
+a.socialIcon:hover,
+.socialHoverClass {
+    color: #44BCDD;
+}
+
+.social-circle li a {
+    display: inline-block;
+    position: relative;
+    margin: 0 auto 0 auto;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    border-radius: 50%;
+    text-align: center;
+    width: 40px;
+    height: 40px;
+    font-size: 1.2em;
+    background-color: deepskyblue;
+}
+
+.social-circle li i {
+    margin: 0;
+    line-height: 40px;
+    text-align: center;
+}
+
+.social-circle li a:hover i,
+.triggeredHover {
+    -moz-transform: rotate(360deg);
+    -webkit-transform: rotate(360deg);
+    -ms--transform: rotate(360deg);
+    transform: rotate(360deg);
+    -webkit-transition: all 0.5s;
+    -moz-transition: all 0.5s;
+    -o-transition: all 0.5s;
+    -ms-transition: all 0.5s;
+    transition: all 0.5s;
+}
+
+.social-circle i {
+    color: #fff;
+    -webkit-transition: all 0.8s;
+    -moz-transition: all 0.8s;
+    -o-transition: all 0.8s;
+    -ms-transition: all 0.8s;
+    transition: all 0.8s;
+}
+
+/* Modal */
+
+.cover {
+    width: 100%;
+    height: 100%;
+}
+
+#time-out .modal-content {
+    margin-top: 150px;
+    height: 400px;
+    text-align: center;
+    background-color: #9ccff5; 
+}
+
+#time-out p {
+    font-size: 1.8em;
+    margin-top: 150px;
+}
+
+/* Book buttons */
+
+#cover-forward {
+    background-color: black;
+    color: white;
+    position: absolute;
+    bottom: 47%;
+    left: 41%;
+    border: 2px solid white;
+    font-size: 1.2em;
+    border-radius: 15px;
+}
+#cover-forward:hover {
+    color: black;
+    background-color: white;
+    border: 2px solid black;
+}
+
+#start {
+    position: absolute;
+    bottom: 5px;
+    left: 40%;
+    background-color: #9ccff5;
+    color: black;
+    border-radius: 15px;
+}
+
+#start:hover {
+    color: white;
+}
+
+#go-first-page {
+    position: absolute;
+    bottom: 5px;
+    left: 38%;
+    background-color: #9ccff5;
+    color: black;
+    font-weight: 100;
+    border-radius: 15px;
+}
+
+#go-first-page:hover {
+    color: white;
+}
+
+#next-question {
+    position: absolute;
+    bottom: 5px;
+    left: 39%;
+    background-color: #9ccff5;
+    color: black;
+    font-weight: 100;
+    border-radius: 15px;
+}
+
+#next-question:hover {
+    color: white;
+}
+
+#book-modal {
+    background-color: rgba(0, 0, 0, 0);
+    width: 0;
+    height: 0;
+}
+
+.exit-game-cover-btn {
+    position: absolute;
+    top: 0;
+    left: 45%;
+    color: white;
+    background-color: #720f0f;
+    font-size: 0.8em;
+    border: 2px solid black;
+    border-radius: 5px;
+}
+
+.exit-game-btn {
+    background-color: #9ccff5;
+    color: black;
+}
+
+#backward {
+    position: absolute;
+    bottom: 5px;
+    left: 42%;
+    background-color: #9ccff5;
+    color: black;
+    font-weight: 100;
+    border-radius: 15px;
+}
+
+#backward:hover {
+    color: white;
+}
+
+#to-end {
+    position: absolute;
+    bottom: 5px;
+    left: 40%;
+    background-color: #9ccff5;
+    color: black;
+    font-weight: 100;
+    border-radius: 15px;
+}
+
+#to-end:hover {
+    color: white;
+}
+
+/* End book button section */
+
+.ornam-top-left {
+    position: absolute;
+    top: 5px;
+    left: 5px;
+}
+
+.orman-left-bottom {
+    position: absolute;
+    bottom: 5px;
+    left: 5px;
+}
+
+.ornament-right-bottom {
+    position: absolute;
+    bottom: 5px;
+    right: 5px;
+}
+
+.ornament-right-top {
+    position: absolute;
+    top: 5px;
+    right: 5px;
+}
+
+#answer-container {
+    width: 90%;
+    margin: 0 auto;
+}
+
+#timer h5 {
+    margin-top: 25px;
+    font-size: 1.5em;
+}
+
+#timer p {
+    margin-bottom: 25px;
+    font-size: 1.3em;
+}
+
+.test-answer {
+    border-radius: 5px;
+    background-color: #9ccff5;
+    height: 50px;
+    width: 100%;
+    text-align: center;
+    line-height: 50px;
+    margin-bottom: 10px;
+    border-radius: 250px;
+}
+
+.test-answer:hover {
+    font-size: 1.5em;
+    color: white;
+}
+
+#joker-container {
+    margin-top: 50px;
+    
+}
+
+.joker-btn {
+    background-color: #9ccff5;
+    border-radius: 5px;
+    width: 100px;
+    text-align: center;
+}
+
+.joker-btn:hover {
+    color: white;
+}
+
+#setings .modal-content {
+    background-color: #ffcf8d;
+    width: 620px;
+    margin-top: 20px;
+}
+
+#setings h4 {
+    text-align: center;
+    font-size: 2em;
+    color: black;
+}
+
+#setings p {
+    text-align: center;
+    font-size: 1.6em;
+    color: black;
+    padding: 3px;
+}
+
+.modal-close {
+    color: black;
+    font-size: 1.2em;
+}
+
+#video {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 18%;
+}
+
+#video .modal-dialog{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin-left: 350px;
+    padding: 0;
+    text-align: center;
+}
+
+#video .modal-content {
+    width: 1000px;
+    height: 650px;
+    background-color: black;
+}
+
+#video video{
+    width: 100%;
+    height: 600px;
+}
+
+.close-video {
+    background-color: deepskyblue;
+}
+
+#top-right-stars {
+    position: absolute;
+    top: 5px;
+    right: 20px;
+    width: 150px;
+    height: 150px;
+}
+
+#top-left-stars {
+    position: absolute;
+    top: 5px;
+    left: 20px;
+    width: 150px;
+    height: 150px;
+}
+
+#bottom-left-stars {
+    position: absolute;
+    bottom: 5px;
+    left: 20px;
+    width: 150px;
+    height: 150px;
+}
+
+#close-time-out {
+    position: absolute;
+    left: 40%;
+    bottom: 5px;
+    background-color: black;
+    color: white;
+}
+
+#close-time-out:hover {
+    background-color: white;
+    color: black;
+}
+
+#sleep-boy {
+    width: 400px;
+    height: 350px;
+    margin: 0 auto;
+    margin-top: 50px;
+}
+
+#fairy-right {
+    position: absolute;
+    right: 50px;
+    bottom: 10px;
+    width: 180px;
+    height: 300px;
+}
+
+.final-text {
+    text-align: center;
+    color: black;
+    margin-top: 20px;
+    margin-left: 5px;
+}
+
+#final-fairy-container {
+    width: 200px;
+    height: 250px;
+    text-align: center;
+    margin: 0 auto;
+    
+}
+
+
+
+
+
+
+
+
+
+
